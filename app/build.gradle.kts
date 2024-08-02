@@ -78,5 +78,15 @@ dependencies {
     implementation (libs.androidx.navigation.compose.v253)
     implementation (libs.androidx.foundation)
 
+    //testing
+    testImplementation (libs.junit)
+    testImplementation (libs.mockito.core)
+    testImplementation (libs.mockito.inline)
+    testImplementation (libs.kotlinx.coroutines.test)
+    testImplementation (libs.androidx.core.testing)
+
+    androidTestImplementation (libs.androidx.junit.v113)
+    androidTestImplementation (libs.androidx.espresso.core.v340)
+
 
 }
