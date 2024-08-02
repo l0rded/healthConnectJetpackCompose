@@ -32,16 +32,18 @@ fun AppNavigation(
             )
             val permissionsGranted by viewModel.permissionsGranted
             val permissions = healthConnectManager.permissions
-            val onPermissionsResult = {viewModel.initialLoad()}
+            val onPermissionsResult = { viewModel.initialLoad() }
             val recordList by viewModel.recordList
             val permissionsLauncher =
                 rememberLauncherForActivityResult(viewModel.permissionsLauncher) {
-                    onPermissionsResult()}
+                    onPermissionsResult()
+                }
             DashboardScreen(
                 permissionsGranted = permissionsGranted,
                 permissions = permissions,
                 onPermissionsLaunch = { values ->
-                    permissionsLauncher.launch(values)},
+                    permissionsLauncher.launch(values)
+                },
                 recordList = recordList
             )
         }
