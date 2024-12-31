@@ -7,10 +7,10 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.healthconnectjetpackcompose.model.HealthConnectManager
-import com.example.healthconnectjetpackcompose.view.screens.DashboardScreen
-import com.example.healthconnectjetpackcompose.viewModel.DashboardViewModel
-import com.example.healthconnectjetpackcompose.viewModel.DashboardViewModelFactory
+import com.example.healthconnectjetpackcompose.data.managers.HealthConnectManager
+import com.example.healthconnectjetpackcompose.ui.view.screens.DashboardScreen
+import com.example.healthconnectjetpackcompose.ui.viewModel.DashboardViewModel
+import com.example.healthconnectjetpackcompose.ui.viewModel.DashboardViewModelFactory
 
 /**
  * Provides the navigation in the app.
@@ -31,7 +31,7 @@ fun AppNavigation(
                 )
             )
             val permissionsGranted by viewModel.permissionsGranted
-            val permissions = healthConnectManager.permissions
+            val permissions = HealthConnectManager.Permission.permissions
             val onPermissionsResult = { viewModel.initialLoad() }
             val recordList by viewModel.recordList
             val permissionsLauncher =

@@ -1,4 +1,4 @@
-package com.example.healthconnectjetpackcompose.view.screens
+package com.example.healthconnectjetpackcompose.ui.view.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -9,13 +9,12 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.healthconnectjetpackcompose.R
-import com.example.healthconnectjetpackcompose.view.components.HealthCard
-import com.example.healthconnectjetpackcompose.viewModel.HealthConnectData
+import com.example.healthconnectjetpackcompose.ui.view.components.HealthCard
+import com.example.healthconnectjetpackcompose.ui.viewModel.HealthConnectData
 
 @Composable
 fun DashboardScreen(

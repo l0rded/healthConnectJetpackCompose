@@ -1,4 +1,4 @@
-package com.example.healthconnectjetpackcompose.view.components
+package com.example.healthconnectjetpackcompose.ui.view.components
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable

@@ -6,6 +6,7 @@ coreTesting = "2.2.0"
 dexter = "6.2.3"
 espressoCoreVersion = "3.4.0"
 foundation = "1.6.8"
+gson = "2.11.0"
 kotlin = "2.0.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -34,6 +35,7 @@ androidx-material = { module = "androidx.compose.material:material", version.ref
 androidx-navigation-compose-v253 = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
 androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "workRuntimeKtx" }
 dexter = { module = "com.karumi:dexter", version.ref = "dexter" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

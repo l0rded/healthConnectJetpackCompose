@@ -78,6 +78,9 @@ dependencies {
     implementation (libs.androidx.navigation.compose.v253)
     implementation (libs.androidx.foundation)
 
+    //Json Serialization & Deserialization
+    implementation(libs.gson)
+
     //testing
     testImplementation (libs.junit)
     testImplementation (libs.mockito.core)

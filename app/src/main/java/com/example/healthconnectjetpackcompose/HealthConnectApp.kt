@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.rememberNavController
-import com.example.healthconnectjetpackcompose.model.HealthConnectManager
+import com.example.healthconnectjetpackcompose.data.managers.HealthConnectManager
 import com.example.healthconnectjetpackcompose.navigation.AppNavigation
 import com.example.healthconnectjetpackcompose.ui.theme.HealthConnectJetpackComposeTheme
 

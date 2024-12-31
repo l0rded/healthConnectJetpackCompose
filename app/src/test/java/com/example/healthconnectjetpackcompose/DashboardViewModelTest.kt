@@ -6,8 +6,8 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.health.connect.client.records.BloodPressureRecord
 import androidx.health.connect.client.time.TimeRangeFilter
 import androidx.health.connect.client.units.Pressure
-import com.example.healthconnectjetpackcompose.model.HealthConnectManager
-import com.example.healthconnectjetpackcompose.viewModel.DashboardViewModel
+import com.example.healthconnectjetpackcompose.data.managers.HealthConnectManager
+import com.example.healthconnectjetpackcompose.ui.viewModel.DashboardViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
 import org.junit.Assert.assertEquals
